@@ -1,13 +1,13 @@
 databases:
-  - name: django_render_db
+  - name: django_restaurant_render_db
     region: singapore
     plan: free
-    databaseName: django_render_db
+    databaseName: django_restaurant_render_db
     user: django_user
 
 services:
   - type: web
-    name: django_render
+    name: django_restaurant_render
     env: python
     region: singapore
     buildCommand: './build.sh'
