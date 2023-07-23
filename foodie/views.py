@@ -5,9 +5,9 @@ from .forms import SearchForm
 import json
 import requests
 
-# Create your views here.
+
 GNAVI_URL = "https://api.gnavi.co.jp/RestSearchAPI/v3/"
-GNAVI_KEY = "19bc8bfde209abf846c4668f19a1d6ed" # 取得したkeyid
+GNAVI_KEY = "19bc8bfde209abf846c4668f19a1d6ed"
 
 class IndexView(TemplateView):
     template_name = 'foodie/index.html'

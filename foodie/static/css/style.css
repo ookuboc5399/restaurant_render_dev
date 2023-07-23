@@ -23,7 +23,7 @@ main {
 }
 
 .bg-image-full {
-	background-image: url('/static/image/top.jpg');
+	background-image: url('/static/image/top.png');
 	background-color: #868e96;
 	background-attachment: scroll;
 	position: relative;
@@ -169,4 +169,9 @@ textarea {
 }
 
 .bg-image-full {
-	background-image: url('/static/image/top.jpg');
+	background-image: url('/static/image/top.png');
+	background-color: #868e96;
+	background-attachment: scroll;
+	position: relative;
+	background-size: cover;
+}
